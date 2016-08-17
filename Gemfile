@@ -44,6 +44,8 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
+# bootstrap-sass is a Sass-powered version of Bootstrap 3, ready to drop right into your Sass powered applications.
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 group :development, :test do
   gem 'sqlite3'
 end
